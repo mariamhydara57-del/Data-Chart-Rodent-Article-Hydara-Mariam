@@ -1,0 +1,125 @@
+/* General styles */
+p, section{
+    /* Sets a max-width for all paragraphs */
+    max-width:700px;
+
+    /* Uses the margin trick to center */
+    margin:10px auto;
+  }
+
+ img{
+
+ 	/* Automatically resizes the images to take up proportionate space */
+ 	max-width: 100%;
+ 	max-height: 40%;
+ 	center
+ }
+
+ /* Link styles and makes background color a cream*/
+body{
+	background-color: #F4EBDC;
+}    
+
+/* Body styles */
+ body{
+
+ 	/* Sets the font family for the body*/
+	font-family: 'Courier New'
+ }
+
+/* Header styles */
+header{
+
+	/* Centers the header text */
+	text-align: center;
+
+	/* Sets the font family for the body*/
+	font-family: 'Courier New'
+
+}
+
+header h1{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 740px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+ 
+	/* Left-aligns the text */
+	text-align: center;
+}
+
+header h2, h3{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 740px;
+
+	/*Sets a smaller font size for h2s in the header section */
+	font-size: 14px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+
+	/* Left-aligns the text */
+	text-align: left;
+}
+
+header h3 {
+
+	/*Sets a smaller font size for h3s in the header section */
+	font-size: 14px;
+
+}
+
+ /* Styles for the banner image and caption*/
+figure.banner{
+
+ 	/* This display allows the figcaption to align with the image */
+ 	display:inline-block
+
+ 	/* Uses the margin trick to center */
+ 	margin: 0px auto;
+
+ }
+
+ figcaption.bannerCaption{
+
+ 	/* Sets the font size for the caption text */
+	font-size: 14px;
+	
+	/* puts the caption text to the right */
+	text-align: center;
+
+	/* A margin-left of 20px helps the caption appear centered with the image even though it's technically a little shorter */
+	margin-left: 10px;
+ }
+
+/*Sets smaller font size for section headers so that it fits in one line*/
+body h2{
+	font-size: 23px;
+}
+
+ /* Styles for section headers */
+ .content-block h2{
+
+	/* Tweaking the top and bottom margins to make them look neater */
+	margin-top: 30px;
+	margin-bottom: -5px;
+ }
+
+
+/* Styles for the final section */
+section.last{
+
+	/*  Adds some breathing room after the last paragraph */
+	margin-bottom: 25px;
+}
+
+/* Styles for the credit line */
+#credit {
+	text-align: right;
+	font-style: italic;
+	font-size: 12px;
+}
+
